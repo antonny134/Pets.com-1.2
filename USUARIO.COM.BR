@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USUARIO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    
+    <div class="usuario">
+        <a href="VIDIOS.COM.BR"><span><i class="bi bi-person"></i></span></a>
+        <h2>USUARIO</h2>
+        <!--aqui vão ter as opções-->
+            <div class="opcoes">
+                <a href="#"><span></span>cadastro</a>
+               
+            </div>
+             <div class="opcoes">
+                <a href="#"><span></span>cadastro</a>
+               
+            </div>
+    </div>
+    
+
+        
+
+    <style>
+        body{
+             width: 300px;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        padding:40px 0px 40px 1%;
+        box-shadow:3px 0 0 brown;
+        color: brown;
+
+        position: fixed;
+        top:0;
+        left:0;
+        overflow: hidden;
+        
+        }
+
+         .usuario a {
+              color: brown;
+        text-decoration: none  ;
+        font-size: 28px;
+        display: block;
+        text-align: center;
+         }  
+
+         .usuario h2 {
+            text-align: center;
+            font-size: 17px;
+         }
+         
+         .opcoes a{
+            color: brown;
+        text-decoration: none  ;
+        font-size: 28px;
+        display: block;
+        text-align: justify;
+         }
+
+         .opcoes:hover{
+            background: rgb(79, 71, 79);
+            border-radius: 34px;
+         }
+
+         .opcoes {
+            transform: .2s;
+         }
+    </style>
+</body>
+</html>

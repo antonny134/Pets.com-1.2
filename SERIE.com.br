@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERIE</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+</head>
+
+<body>
+
+    <nav class="logo">
+        <li>
+            <a href="VIDIOS.COM.BR"> 
+                <span class="logo3"><i class="bi bi-house"></i></span>
+                
+        </a>
+        </li>
+    </nav>
+
+  
+<div class="desenho">
+
+    
+
+    
+
+    <!--inicio-->
+
+    <footer>
+
+        <ul>
+
+            <iframe 
+
+            width="400" 
+            height="315" 
+            src="https://www.youtube.com/embed/ZtGcFvfvFwI?si=z6XfASXAYh-FDp4Z"
+             title="YouTube video player" 
+             frameborder="13px" 
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+             referrerpolicy="strict-origin-when-cross-origin" 
+             allowfullscreen>
+
+            </iframe>
+
+            <iframe 
+
+            width="400" 
+            height="315" 
+            src="https://www.youtube.com/embed/CDb3gD6nvno?si=Qs3qXAQxHexp8wgr" 
+            title="YouTube video player" 
+            frameborder="13px" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+
+            </iframe>
+
+          <iframe 
+
+          width="400"
+          height="315" 
+          src="https://www.youtube.com/embed/tvItRhe-K3s?si=7G5NnAoMRaJI7Ikl" 
+          title="YouTube video player" 
+          frameborder="13px" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen>
+
+          </iframe>
+
+          <iframe
+
+          width="400" 
+          height="315" 
+          src="https://www.youtube.com/embed/6IEjTsQuHn8?si=PANIGRRAVyCQJFw3" 
+          title="YouTube video player" 
+          frameborder="13px" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen>
+
+          </iframe>
+
+          <iframe
+
+          width="400" 
+          height="315" 
+          src="https://www.youtube.com/embed/Nua1Ug5DgxE?si=ZJXcV-1JlVVcSs-C" 
+          title="YouTube video player" 
+          frameborder="13px" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen>
+
+          </iframe>
+
+          <iframe 
+
+          width="400"
+           height="315" 
+           src="https://www.youtube.com/embed/kNJetIJzz6I?si=OeRuLF-0eQuzmOp6" 
+           title="YouTube video player" 
+           frameborder="13px" 
+           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+           referrerpolicy="strict-origin-when-cross-origin" 
+           allowfullscreen>
+
+          </iframe>
+
+
+          <iframe width="400" height="315" src="https://www.youtube.com/embed/vEwPnjqWQ-g?si=zULHem4BF85nFt0z" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+
+        </ul>
+
+    </footer>
+
+    <!--fim-->
+
+    
+
+   
+
+</div>
+
+    
+    
+ <style>
+    body{
+        background: black;
+    }
+     
+    .desenho iframe{
+        border-color: brown ;
+        border-radius: 22px;
+
+    }
+    .logo a {
+         color: brown;
+    text-decoration: none;
+    text-align: end;
+    display: flexbox;
+    overflow: hidden;
+     margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     font-size: 22px;
+    }
+
+ </style>
+
+</html>

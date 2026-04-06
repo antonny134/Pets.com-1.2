@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+   
+
+<nav class="menu">
+
+    <ul>
+        <li class="li">
+            <a href="">
+                <span class="icon1"><i class="bi bi-camera-reels-fill"></i></span>
+           
+            </a>
+            
+        </li>
+    </ul>
+
+    <ul>
+        <li class="item">
+            <a href="FILME.COM.BR">
+                <span class="icon1"><i class="bi bi-film"></i></span>
+             <span class="link">FILME</span>
+            </a>
+            
+        </li>
+    </ul>
+    <ul>
+        <li class="item">
+            <a href="SERIE.com.br"> 
+                <span class="icon1"><i class="bi bi-camera-video-fill"></i></span>
+             <span class="link">SERIE</span>
+            </a>
+
+        </li>
+    </ul>
+    <ul>
+        <li class="item">
+            <a href="MUSICA.COM.BR">
+                <span class="icon1"><i class="bi bi-apple-music"></i></span>
+             <span class="link">MUSICA</span>
+            </a>
+           
+        </li>
+    </ul>
+
+    <ul>
+        <li class="item">
+            <a href="#">
+                <span class="icon1"></span>
+             <span class="link">QUERO SABER MAIS</span>
+            </a>
+           
+        </li>
+    </ul>
+
+     <ul>
+        <li class="item">
+            <a href="USUARIO.COM.BR">
+                <span class="icon1"><i class="bi bi-person"></i></span> 
+             <span class="link">USUARIO</span>
+            </a>
+           
+        </li>
+    </ul>
+
+</nav>
+
+    <script src="menu.js"></script>
+
+</body> 
+
+<style>
+
+body{
+    background: black;
+}
+.desenho h3 {
+    color: white;
+    text-align: center;
+}
+.homer a {
+    color: brown;
+    text-decoration: none;
+    text-align: end;
+    display: flexbox;
+    overflow: hidden;
+     margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+
+.desenho iframe{
+    border-radius: 22px;
+    border-color: brown;
+    
+    
+
+    
+}
+
+  body{
+        height: 100vh;
+    }
+
+    nav.menu{
+        width: 300px;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        padding:40px 0px 40px 1%;
+        box-shadow:3px 0 0 brown;
+
+        position: fixed;
+        top:0;
+        left:0;
+        overflow: hidden;
+        
+        
+    }
+
+    nav.menu.expandir{
+        width: 300px;
+    }
+    
+    
+    nav.expandir > i {
+        height: 100%;
+        padding-left: 10px;
+    }
+    
+
+    .expandir i{
+        color:brown;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    ul{
+        height: 100px;
+        list-style-type: none;
+        
+
+    }
+
+    ul li.item a {
+        color: brown;
+        text-decoration: none  ;
+        font-size: 20px;
+        padding: 20px 4%;
+        display: flex;
+
+    }
+
+     ul li.item:hover{
+        background: rgb(79, 71, 79);
+        border-radius: 34px;
+
+     }
+
+      ul li.item {
+        transition: .2s;
+      }
+
+      ul li.it{
+        background-color: brown;
+      }
+
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font: 'Outfit', sans-serif;
+     }
+        
+     
+</style>
+
+
+
+<!--inicio do css-->
+<style>
+    .INICIO h2 {
+        display: block;
+        background: rgb(0, 0, 0);
+        overflow: hidden;
+        color: brown;
+    }
+
+    .INICIO a {
+        background: rgb(0, 0, 0);
+        text-decoration: none;
+        color: brown;
+    }
+    .INICIO a {
+        overflow: hidden;
+        color: black;
+        display: flexbox;
+        color: brown;
+    }
+    .INICIO {
+        background: rgb(2, 2, 2);
+        padding: 14px;
+        
+    }
+    .INICIO h2 {
+        text-align: center;
+    }
+    body{
+        background: black;
+    }
+    .cabesalho ul {
+        color: white;
+        
+    }
+    .cabesalho  {
+        display: flex;
+    }
+    .cabesalho h3 {
+        text-align: justify;
+    }
+    .cabesalho a{
+        text-decoration: none;
+        color: brown;
+    }
+
+        @media(width < 920){
+            .menu{
+                width: 72px;
+            }
+        }
+   
+        .li a{
+            color: brown;
+            font-size: 29px;
+          display: block;
+            text-align: center;
+        }
+</style>
+</style>
+<!--fim do css-->
+
+</html>
